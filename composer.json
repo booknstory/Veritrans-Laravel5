@@ -1,0 +1,28 @@
+{
+	"name": "booknstory/veritransl5",
+	"description": "Veritrans Library for Laravel 5",
+	"keywords": ["laravel", "veritrans"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dwicandra Ekastrya",
+			"email": "candra@pixturebooks.com"
+		}
+	],
+	"require": {
+		"illuminate/support": "5.*.*",
+		"illuminate/session": "5.*.*",
+		"illuminate/events": "5.*.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0",
+		"mockery/mockery": "~0.9.0",
+		"orchestra/testbench": "~3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Veritrans\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
